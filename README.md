@@ -1,5 +1,9 @@
 # DAN — Payment Systems Oversight Dashboard
 
+[![tests](https://github.com/Daniel-200600/dan-payment-risk-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/Daniel-200600/dan-payment-risk-analysis/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 DAN is a Streamlit application that helps an oversight team turn monthly Excel
 "reporting" forms, submitted by payment-system participants, into a risk score,
 an incident analysis and ready-to-share Word/PDF reports.
@@ -128,7 +132,19 @@ pytest
 
 ## Screenshots
 
-None are included yet.
+All screenshots use the synthetic sample data in `data/sample/`.
+
+**Dashboard** — consolidated score per country, interpretation and risk breakdown by system
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+**Incident analysis** — occurred incidents and probable causes
+
+![Incident analysis](docs/screenshots/incident-analysis.png)
+
+**Multi-country view** — comparison of the tracked countries
+
+![Multi-country view](docs/screenshots/multi-country.png)
 
 ## Known limitations
 
