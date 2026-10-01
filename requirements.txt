@@ -1,0 +1,16 @@
+# Runtime dependencies (tested with Python 3.11)
+streamlit>=1.61,<2
+pandas>=2.2,<3
+numpy>=1.26
+openpyxl>=3.1
+xlrd>=2.0.1          # legacy .xls reporting files
+python-docx>=1.1
+docxtpl>=0.16
+matplotlib>=3.8
+plotly>=5.20
+reportlab>=4.0       # native PDF fallback when Word/LibreOffice are unavailable
+docx2pdf>=0.1.8      # optional PDF conversion through Microsoft Word (Windows/macOS)
+pillow>=10.0         # used by scripts/generate_demo_resources.py
+
+# Optional: local LLM assistant (requires a running Ollama server and a pulled model)
+# ollama>=0.3

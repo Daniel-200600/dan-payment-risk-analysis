@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.spec
+*.exe
+
+# Runtime data written by the application / tests (may contain real data
+# when the app is used with real reporting files -- never commit these)
+data/processed/
+data/raw/
+outputs/
+mapping/versions_precedentes/
+referentiels/versions_precedentes_guide/
+*.backup_*
+
+# Logs, local configuration, secrets
+*.log
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
