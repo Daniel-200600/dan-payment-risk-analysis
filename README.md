@@ -143,3 +143,7 @@ None are included yet.
 - Exact PDF output requires Microsoft Word or LibreOffice; otherwise a simplified
   native PDF is produced.
 - Legacy exploration notebooks from the original project are not included.
+
+## License
+
+Released under the [MIT License](LICENSE).
